@@ -46,3 +46,53 @@ ul li a{
 ul li a:hover{
     color: white;
 }
+
+.img{
+    width: 323px;
+    height: 411px;
+    position: absolute;
+    top: 150px;
+    left: 155px;
+    box-shadow: 7px 5px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.right{
+    float: right;
+    padding-right: 100px;
+}
+
+
+.title{
+    font-size: 52px;
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.num{
+    display: flex;
+    margin-top: 70px;
+}
+
+.nums {
+    margin-right: 10px;
+    font-size: 32px;
+    background-color: rgba(250, 214, 86, 0.6);
+    width: 98px;
+    height: 73px;
+    display: flex; /* Use flexbox to align vertically */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    border-radius: 11px;
+    color: white;
+  }
+  
+span{
+    font-size: 32px;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+}
