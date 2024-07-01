@@ -112,7 +112,7 @@ span{
 
 .time div{
     margin-left: 5px;
-    margin-right: 60px;
+    margin-right: 35px;
     border-bottom: solid 3px #FAEDCD;
     margin-top: 10px;
     font-weight: 700;
@@ -120,21 +120,6 @@ span{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-}
-
-#second{
-    position: absolute;
-    left: 1067px;
-}
-
-#minut{
-    position: absolute;
-    left: 940px;
-}
-
-#hour{
-    position: absolute;
-    left: 810px;
 }
 
 button{
