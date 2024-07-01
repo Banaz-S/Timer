@@ -55,6 +55,12 @@ ul li a:hover{
     left: 155px;
     box-shadow: 7px 5px 30px rgba(0, 0, 0, 0.3);
     border-radius: 7px;
+    transition: 0.5s ease;
+    
+}
+
+.img:hover{
+    scale: 1.1;
 }
 
 .right{
@@ -88,6 +94,8 @@ ul li a:hover{
     align-items: center; /* Centers content vertically */
     border-radius: 11px;
     color: white;
+    box-shadow: 0px 0px 15px rgba(250, 214, 86, 0.9);
+    text-shadow: 0px 0px 15px rgba(171, 147, 61, 0.5);
   }
   
 span{
@@ -95,4 +103,55 @@ span{
     padding-right: 10px;
     padding-top: 15px;
     font-weight: bold;
+}
+
+.time{
+    display: flex;   
+   
+}
+
+.time div{
+    margin-left: 5px;
+    margin-right: 60px;
+    border-bottom: solid 3px #FAEDCD;
+    margin-top: 10px;
+    font-weight: 700;
+    width: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#second{
+    position: absolute;
+    left: 1067px;
+}
+
+#minut{
+    position: absolute;
+    left: 940px;
+}
+
+#hour{
+    position: absolute;
+    left: 810px;
+}
+
+button{
+    position: absolute;
+    top: 540px;
+    left: 820px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 50px;
+    background-color: white;
+    border:solid 1px #E9CB4F;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+button:hover{
+    background-color: #E9CB4F;
+    color: white;
 }
